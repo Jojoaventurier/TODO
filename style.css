@@ -3,13 +3,26 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 20px;
+    
 }
 
-.todo {
-    display: flex;
+.todoCard {
+    position: relative;
 }
 
 #btn {
-    margin: 10px 10px;
+    margin: 10px 0;
+    width: 800px;
+}
+
+.delBtn {
+    
+}
+
+.fa-solid {
+    position: absolute;
+    bottom: 11px;
+    left: 148px;
+    z-index: 4;
 }
