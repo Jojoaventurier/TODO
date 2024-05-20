@@ -6,8 +6,11 @@
     <script src="https://kit.fontawesome.com/de1b6f94aa.js" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet">
     <title>Todo list</title>
+    <script>
+       
+    </script>
 </head>
-<body>
+<body onload="displayCount()">
     <div id="wrapper">
 
         <h1>Todo list</h1>
@@ -16,7 +19,7 @@
             <div id="count"></div>
             <button id="btn">Add a task</button>
             <div id="todoCards">
-                <div class="todoCard">
+                <div id="todoCard" class="todoCard">
                     <textarea class="task" maxlength="200" cols="20" rows="15">New task</textarea>
                     <span class="delBtn"><i class="fa-solid fa-trash" aria-hidden="true"></i></span>
                 </div>
@@ -24,6 +27,9 @@
             </div>
 
         </div>
+        <p>Count : <span id="counter"></span></p>
+        
+        
     </div>
     <script src="main.js"></script>
 </body>
